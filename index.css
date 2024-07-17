@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: rgb(39, 38, 38);
+    margin: 20px;
+}
+
+header {
+    /* Tamanho ajustado */
+    width: 40%; /* Ocupa toda a largura da tela */
+    height: 40%; /* Altura fixa de 80 pixels */
+    max-width: 1200px; /* Largura máxima de 1200 pixels */
+    margin: 0 auto; 
+  }
+
+form {
+    margin: 20px;
+}
+s
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+footer {
+    padding: 10px;
+    text-align: left;
+  }
+
+span {
+    color: white;
+    
+}
